@@ -1,6 +1,6 @@
-from addition import *
+from triangle import *
 
-number1, number2 = eval(input('Enter two numbers:'))
 
-calculated = add(number1, number2)
+base, height = eval(input('Enter base, height:'))
+calculated = triangle(base, height)
 print('The result is', calculated)
